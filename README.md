@@ -20,16 +20,16 @@ The mod is designed for multiplayer: each player's checkpoints stay on their own
 - Shell restoration clears residual quicksand depth and soft-resets the camera after attachment, then restores
   the saved view. Free Camera and Analog Camera preferences are not changed.
 - Baby penguins are an exception to private carryable restoration: the mod reuses the matching synchronized bird
-  and sends its held state instead of spawning a local copy that the native penguin behaviour later synchronizes.
+  and sends its held state instead of spawning a local copy that the native baby penguin behaviour later synchronizes.
   Subsequent loads release the bird normally; they never delete it as a disposable checkpoint replacement.
-- If a saved penguin is missing or held by another player, restoration retries briefly and then reports that the
-  position loaded without it. It does not create a duplicate or take another player's held bird.
+- If a saved baby penguin is missing or held by another player, restoration retries briefly and then reports that the
+  position loaded without it. It does not create a duplicate or take another player's held penguin.
 - Restart the session/re-enter the level to clear duplicates already created by an older version. This update
   intentionally does not try to delete ambiguous shared objects already in play.
 
 These changes have been syntax-checked and reviewed against the engine source, not gameplay-tested. Manual tests
 should cover cross-level and repeated shell loads over lava, quicksand and slopes; quicksand camera recovery;
-and host/client penguin saves, dropping/reloading, two different babies, and another player holding the saved bird.
+and host/client penguin saves, dropping/reloading, two different babies, and another player holding the saved lil baby penguin.
 
 ### Four independent persistent save slots
 
