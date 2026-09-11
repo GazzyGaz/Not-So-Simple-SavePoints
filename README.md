@@ -19,7 +19,7 @@ The mod is designed for multiplayer: each player's checkpoints stay on their own
   flags. This also addresses the native invalid-shell check before the shell's first behaviour update.
 - Shell restoration clears residual quicksand depth and soft-resets the camera after attachment, then restores
   the saved view. Free Camera and Analog Camera preferences are not changed.
-- Baby penguins are an exception to private carryable restoration: the mod reuses the matching synchronized bird
+- Baby penguins are an exception to private carryable restoration: the mod reuses the matching synchronized penguin
   and sends its held state instead of spawning a local copy that the native baby penguin behaviour later synchronizes.
   Subsequent loads release the bird normally; they never delete it as a disposable checkpoint replacement.
 - If a saved baby penguin is missing or held by another player, restoration retries briefly and then reports that the
