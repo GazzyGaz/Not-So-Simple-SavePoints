@@ -21,7 +21,7 @@ The mod is designed for multiplayer: each player's checkpoints stay on their own
   the saved view. Free Camera and Analog Camera preferences are not changed.
 - Baby penguins are an exception to private carryable restoration: the mod reuses the matching synchronized penguin
   and sends its held state instead of spawning a local copy that the native baby penguin behaviour later synchronizes.
-  Subsequent loads release the bird normally; they never delete it as a disposable checkpoint replacement.
+  Subsequent loads release the penguin normally; they never delete it as a disposable checkpoint replacement.
 - If a saved baby penguin is missing or held by another player, restoration retries briefly and then reports that the
   position loaded without it. It does not create a duplicate or take another player's held penguin.
 - Restart the session/re-enter the level to clear duplicates already created by an older version. This update
