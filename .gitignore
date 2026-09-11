@@ -1,0 +1,7 @@
+# Personal checkpoints, logs, and local development files are not release content.
+*.sav
+*.modfs
+*.log
+.tmp/
+.DS_Store
+Thumbs.db
