@@ -42,13 +42,7 @@ and host/client penguin saves, dropping/reloading, two different babies, and ano
 ### Current saves HUD
 
 - Type `/saves` to show or hide a non-clickable overlay on the left. It starts hidden each session.
-- A 60%-opaque black rectangle encloses the overlay. The heading uses CoopDX's title font with letters cycling red, green, blue, and yellow; the save rows retain their existing shadows and alignment.
-- The right-facing arrow compensates for the native texture's transparent padding so its visible triangle aligns with the left-facing arrow.
-- The compact layout uses equally sized bold destination labels, smaller regular-weight right-aligned timestamps, equal-size arrows, and evenly spaced rows. All text has a dark drop shadow. The whole overlay scales together to fit its left-hand column rather than changing font sizes from slot to slot.
-- Four native gold direction arrows identify Up, Down, Left, and Right. Each saved slot shows its full level name and act; Bowser battle maps omit the act. Empty slots say **Slot empty** in red.
-- The line underneath shows the local creation date/time, for example `25/09/2026, 18:43`. New saves update the enabled overlay immediately, and timestamps survive restarting the game. Loading a slot does not change its date.
-- Existing saves without a recorded date show **Date unavailable** until saved again.
-- The overlay remains visible while enabled, including when browsing the native pause/mod menu. Automatic display for only the SavePoints submenu is not available in this CoopDX build.
+- The overlay remains visible while enabled, including when browsing the native pause/mod menu. 
 - The Saves menu reuses this overlay's rendering, with clickable entries and a Back button. The `/saves` overlay remains non-clickable. Unchanged rows reuse cached text; only creating a save writes timestamp data to disk.
 
 ### Multiplayer-safe, per-player checkpoints
