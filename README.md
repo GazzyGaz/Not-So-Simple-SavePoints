@@ -13,13 +13,13 @@ The mod is designed for multiplayer: each player's checkpoints stay on their own
 
 ## Features
 
-- **Four save slots** — keep a separate checkpoint on each D-pad direction. Your saves remain available after closing the game.
-- **Pick up where you left off** — return to your saved position and camera view, even from another level.
-- **Save during the action** — supports flying, swimming, shell riding, supported held objects and more.
-- **Practise races and boss fights** — checkpoint support for the Princess’s Secret Slide and Bowser battles, with safeguards for shared multiplayer progress.
-- **Travel with friends** — warp to an available player or choose a level from the mod menu.
-- **Check your saves at a glance** — see each slot’s level, act and timestamp in the Current saves menu or optional HUD overlay.
-- **Choose your preferences including save/load only mode** — refill health on load, choose whether to restore saved coins, or let the host restrict the mod to saving and loading only.
+- **Four save slots** - keep a separate checkpoint on each D-pad direction. Your saves remain available after closing the game.
+- **Pick up where you left off** - return to your saved position and camera view, even from another level.
+- **Save during the action** - supports flying, swimming, shell riding, supported held objects and more.
+- **Practise races and boss fights** - checkpoint support for the Princess’s Secret Slide and Bowser battles, with safeguards for shared multiplayer progress.
+- **Travel with friends** - warp to an available player or choose a level from the mod menu.
+- **Check your saves at a glance** - see each slot’s level, act and timestamp in the Current saves menu or optional HUD overlay.
+- **Choose your preferences including save/load only mode** - refill health on load, choose whether to restore saved coins, or let the host restrict the mod to saving and loading only.
 
 ## Installation
 
@@ -47,7 +47,7 @@ On a keyboard, use the keys assigned to these controls in your game settings.
 
 Open the mod menu from the pause menu to access **Warp to player...**, **Choose level**, **Current saves** and **Preferences**.
 
-## Playing with others
+## Multiplayer
 
 Each player has their own checkpoints. The mod is designed to let you retry a section without rewinding everyone else’s game.
 
