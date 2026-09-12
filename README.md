@@ -49,9 +49,9 @@ Open the mod menu from the pause menu to access **Warp to player...**, **Choose 
 
 ## Multiplayer
 
-Each player has their own checkpoints. The mod is designed to let you retry a section without rewinding everyone else’s game.
+Each player has their own checkpoints. The mod is designed to let you retry a section without altering anyone else’s game.
 
-It is not a complete game rewind: collected stars and unlocked doors stay unlocked, and shared events such as Koopa the Quick’s race keep running. Some object and boss states also depend on what other players are doing.
+It is not an emulator perfect save state: collected stars and unlocked doors stay unlocked, and shared events such as Koopa the Quick’s race keep running. Some object and boss states also depend on what other players are doing.
 
 For more help, feature limits and troubleshooting, visit the **[wiki](https://github.com/GazzyGaz/Not-So-Simple-SavePoints/wiki)**. Developers can find the technical details in the **[full README](https://github.com/GazzyGaz/Not-So-Simple-SavePoints/blob/main/README.md)**.
 
