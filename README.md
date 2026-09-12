@@ -186,11 +186,9 @@ Koopa the Quick is intentionally treated as one shared lobby race, matching norm
 
 ### SavePoints menu
 
-The native menu has four buttons, in order: **Warp to player...**, **Choose level**, **Current saves**, and **Preferences**. Each opens a mouse-operated side panel beside the native menu, following the original player picker's layout. Each panel uses the Current saves title font, alternating red/green/blue/yellow letters, and 60%-opaque black background. Each has its own **Back** button with the normal closing sound. No replacement pause system or global theme change is used.
+The native menu has four buttons, in order: **Warp to player...**, **Choose level**, **Current saves**, and **Preferences**. 
 
-**Current saves** shows the same heading, colours, arrows, destinations, timestamps and spacing as `/saves`. Click an entry, then close the pause menu to load through the normal checkpoint loader. D-pad saving and loading are unchanged. Keyboard/controller navigation still belongs to the native pause menu; this build does not expose its captured input to the side panels.
-
-Level and player page arrows have separate hitboxes directly beneath the visible arrows. The central page counter is not clickable. Next advances one page and wraps from the last page to the first; Previous does the reverse.
+**Current saves** Click an entry, then close the pause menu to load through the normal checkpoint loader.
 
 Toggling **Save/load only mode** prints a chat message in the same style as the personal preferences: **Save/load only mode: enabled** (enabled in green) or **Save/load only mode: disabled** (disabled in red).
 
