@@ -1,4 +1,4 @@
-![Simple SavePoints — Mario and purple Toad in front of Peach's Castle](simple-savepoints-logo.png)
+![Simple SavePoints — Mario and purple Toad in front of Peach's Castle](Not-So-Simple-SavePoints.jpg)
 
 # Simple SavePoints
 
