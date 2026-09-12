@@ -1,8 +1,8 @@
 ![Simple SavePoints — Mario and purple Toad in front of Peach's Castle](Not-So-Simple-SavePoints.jpg)
 
-# Simple SavePoints
+# Not So Simple SavePoints
 
-**Simple SavePoints** is a save-and-load checkpoint mod for **SM64 Co-op Deluxe**. It gives every player four independent save slots, keeps those slots between game sessions, and restores much more than Mario's position—including collectibles, inventory, timed races, held objects, ridden shells, Bowser fights, and the camera view.
+**Not So Simple SavePoints (NSS SavePoints)** is a save-and-load checkpoint mod for **SM64 Co-op Deluxe**. It gives every player four independent save slots, keeps those slots between game sessions, and restores much more than Mario's position—including collectibles, inventory, timed races, held objects, ridden shells, Bowser fights, and the camera view.
 
 The mod is designed for multiplayer: each player's checkpoints stay on their own computer, use only their own controls, and do not send custom SavePoint data to the host or other players.
 
